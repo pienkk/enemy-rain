@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+#bg {
+    width : 800px;
+    height : 600px;
+    margin : 0 auto;
+    position : relative;
+    background-image: url("images/bg.png");
+}
+#hero {
+    position: absolute;
+    width: 35px;
+    height: 54px;
+    bottom : 0;
+}
+
+.hero {
+    background-image: url("images/hero.png");
+}
+.hero-left {
+    background-image: url("images/hero.png");
+    background-position: right -35px bottom 0px;
+}
+.hero-right {
+    background-image: url("images/hero.png");
+    background-position: right 0px;
+}
+
+.ghost {
+    position : absolute;
+    background-image: url("images/enemy.png");
+    display : inline-block;
+    margin-left : 30px;
+    width: 45px;
+    height: 54px;
+}
+
+.die {
+    position : absolute;
+    background-image: url("images/enemy.png");
+    display : inline-block;
+    width: 45px;
+    height: 54px;
+    background-position: right 0px;
+}
+.start {
+    position : fixed;
+    width : 250px;
+    height : 100px;
+    font-size : 32pt;
+    border-radius: 5%;
+}
