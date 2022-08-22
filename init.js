@@ -3,7 +3,7 @@ const bg = document.querySelector("#bg");
 const button = document.querySelector(".start");
 
 function init(){
-    setInterval(ghostAdd,1000);
+    setInterval(ghostAdd,2000);
     heroLocation = 383;
     
 }

@@ -30,15 +30,15 @@ function ghostMove(account){
             setTimeout(() => account.remove(),1000);
         }
     }
-    setInterval(ghostDown,500);
+    setInterval(ghostDown,50);
     if(die == 1){
         kill += 1;
     }
-    function ghostDie(){
-        const count = document.querySelector("#killCount");
-        kill += 1;
-        count.innerText = kill;
-    }
+    // function ghostDie(){
+    //     const count = document.querySelector("#killCount");
+    //     kill += 1;
+    //     count.innerText = kill;
+    // }
 }
 function ghostNumbering(num) {
     const ghostAcount = document.getElementsByClassName(num)[0];
